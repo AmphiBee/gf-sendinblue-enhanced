@@ -1,0 +1,28 @@
+{
+	"name": "amphibee/gf-sendinblue-enhanced",
+	"type": "wordpress-plugin",
+	"description": "Sendinblue on Gravity Forms (Enhanced Edition)",
+	"homepage": "https://github.com/AmphiBee/gf-sendinblue-enhanced",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "AmphiBee",
+			"homepage": "https://amphibee.fr/"
+		}
+	],
+	"require": {
+		"php": ">=7.2.0",
+		"composer/installers": "~1.0 || ~2.0"
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"prepend-autoloader": false,
+		"classmap-authoritative": true,
+		"allow-plugins": {
+			"composer/installers": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"roots/wordpress-core-installer": true
+		}
+	}
+}
